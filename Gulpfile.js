@@ -23,7 +23,7 @@ gulp.task('clean', function () {
 // Build
 gulp.task('default', ['clean', 'build']);
 
-gulp.task('build', ['assets', 'styles', 'scripts', 'templates']);
+gulp.task('build', ['scripts']);
 
 gulp.task('scripts', [], function () {
 
